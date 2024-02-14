@@ -1,0 +1,38 @@
+.index{
+    color: blue;
+    font-size: 20px;
+}
+
+div{
+    color: green;
+}
+.o{
+    color: aquamarine;
+    font-size: large;
+}
+.border{
+    width: 400px;
+    background-color: lightblue;
+    border-style:  double;
+    border-width: 1px;
+    border-color: green;
+    margin: auto ;
+    padding: 10px;
+}
+.o{
+    width: 200px;
+    max-width: 100px;
+    height: 50px;
+    max-height: 100px;
+
+}
+.i{
+    border: 30px;
+    padding: 50px;
+    margin: 0px 0px;
+}
+.k{
+    border: 50px;
+    padding-top: 50px;
+    margin-top: 20px;
+}

@@ -1,0 +1,22 @@
+div{
+   width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    border: 10px red;
+    margin: auto;
+}
+
+p.u{
+    border: 2px solid darkred;
+    margin: 60px 60px;
+    padding: 100px;
+}
+img.top{
+    vertical-align: top;
+}
+img.bottom{
+    vertical-align: bottom;
+}
+p.h{
+    margin: auto;
+}
