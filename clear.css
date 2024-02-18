@@ -1,0 +1,52 @@
+body{
+    font-family: tahoma;
+    background-color: black;
+}
+.outer{
+    width: 80%;
+    margin: 0 auto;
+}
+header,footer{
+    background-color: lightgreen;
+    padding: 1em 0;
+    text-align: center;
+    border: 2px solid white;
+    color: black;
+}
+.row{
+    padding: 1rem 0;
+    margin: 1rem 0;
+    background-color: whitesmoke;
+
+
+}
+.box{
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: red;
+    color: black;
+
+}
+main{
+    width: 68%;
+    margin: 0 1%;
+    float: right;
+}
+aside{
+    width: 28%;
+    margin: 0 1%;
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+/*.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}*/
