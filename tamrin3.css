@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    direction: rtl;
+    font-family: tahoma;
+    background-color: yellow;
+
+
+}
+a{
+    vertical-align: center;
+}
+a.button{
+    text-align-all: center;
+    display: inline-block;
+    padding: 0.5em 2em;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.2em;
+    border-bottom: 2px solid #044;
+
+}
+
+a.button:hover {
+    text-shadow: rebeccapurple;
+    border-bottom-color: black;
+}
+a.button:active{
+    box-shadow: inherit;
+    link: pointed;
+
+
+}
+a.button:visited{
+
+}

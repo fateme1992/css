@@ -1,0 +1,41 @@
+table
+tr,th,td{
+    border: 1px solid black ;
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 200px;
+    height: 50px;
+}
+td{
+    color: lightpink;
+}
+th{
+    color: red;
+    background-color: grey;
+
+}
+.t-1{
+    border: none;
+    color: lightblue;
+    background-color: black;
+    padding: 20px;
+    text-align: left;
+
+}
+body{
+    background-color: black;
+}
+tr:nth-child(odd) {
+    background-color: black;
+}
+td:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+
+}
+th:hover{
+    background-color: blueviolet;
+    cursor: all-scroll;
+}
