@@ -39,14 +39,14 @@ aside{
     margin: 0 1%;
     float: right;
 }
-.clearfix{
+/*.clearfix{
     clear: both;
-}
-/*.clearfix:after,
-.clearfix:before {
+}*/
+.clearfix::after,
+.clearfix::before {
     content: '';
     display: table;
 }
-.clearfix:after {
+.clearfix::after {
     clear: both;
-}*/
+}

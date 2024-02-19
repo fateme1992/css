@@ -1,0 +1,14 @@
+input:checked{
+    width: 100px;
+    height: 200px;
+}
+input[type=text]:disabled{
+    background-color: red;
+}
+input[type=text]:enabled{
+    background-color: green;
+}
+p:empty{
+    background-color: lightgreen;
+    height: 70px;
+}

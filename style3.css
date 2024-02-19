@@ -1,0 +1,39 @@
+/*div{
+    width: 50%;
+    background-color: thistle;
+    display: block;
+    margin: auto;
+    border: 1px solid red;
+}*/
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*div{
+    width: 300px;
+    border: 1px solid;
+    background-color: lightgreen;
+    position: absolute;
+    right: 50%;
+
+}*/
+/*div.first{
+    border: 2px solid wheat;
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+}
+p{
+    line-height: 1.5;
+    vertical-align: middle;
+    display: inline-block;
+}*/
+div{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}

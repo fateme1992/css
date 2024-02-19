@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    padding: 100px;
+
+}
+div.first{
+    border: 1px solid;
+    width: 50%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: wheat;
+    text-align: center;
+    padding: 5px;
+}
+header{
+    border: 1px solid white;
+    background-color: lightcoral;
+    height: 150px;
+    color: lightsalmon;
+
+}
+footer{
+    border: 1px solid white;
+    background-color: lightblue;
+
+    color: lightsalmon;
+    text-align: center;
+}
+main{
+    color: lightcoral;
+    width: 50%;
+    margin: 1px;
+    float: left;
+    background-color: orange;
+    height: 150px;
+}
+aside{
+    color: lightsalmon;
+    width: 30%;
+    margin: 1px;
+    float: right;
+    background-color: lightgreen;
+    height: 150px;
+}
+.clearfix{
+    clear: both;
+
+}

@@ -1,0 +1,42 @@
+/*div p{
+    color: fuchsia;
+}*/
+/*div>p{
+  color: blue;
+}*/
+/*div p{
+    color: lightcoral;
+}*/
+
+/*div>span{
+    color: lightgreen;
+}*/
+/*span>p{
+    color: orange;
+}*/
+/*div + p{
+    color: orange;
+}*/
+/*div ~ p{
+    color: lightcoral;
+}*/
+/*div::first-line{
+    color: lightgreen;
+}*/
+/*div::first-letter{
+    color: blue;
+    font-size: 120px;
+    float:initial;
+}*/
+/*::selection{
+    color: orange;
+    background-color: fuchsia;
+}*/
+
+/*h3::before{
+     content: url("download.jpeg");
+}*/
+h3::after{
+    color: blue;
+
+}
