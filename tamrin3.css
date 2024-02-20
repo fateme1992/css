@@ -9,7 +9,7 @@ body{
 a{
     vertical-align: center;
 }
-a.button{
+a.button {
     text-align-all: center;
     display: inline-block;
     padding: 0.5em 2em;
@@ -18,7 +18,10 @@ a.button{
     text-decoration: none;
     border-radius: 0.2em;
     border-bottom: 2px solid #044;
-
+    margin-top: 300px;
+    margin-bottom: 300px;
+    margin-right: 350px;
+    margin-left: 350px;
 }
 
 a.button:hover {

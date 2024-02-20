@@ -1,0 +1,36 @@
+div{
+    text-align: center;
+    font-size: 30px;
+}
+span{
+    color: orange;
+
+}
+div.f{
+    border: solid grey;
+
+}
+div.l{
+    border: solid grey;
+}
+p.first::before{
+    content: '';
+    background-color: transparent;
+    width: 0;
+    height: 0;
+    border-left: 10px solid orange;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+p.first::after{
+     content: '';
+    background-color: transparent;
+    width: 0;
+    height: 0;
+
+    border-right: 10px solid orange;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
