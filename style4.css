@@ -1,0 +1,25 @@
+div{
+    width: 200px;
+    height: 400px;
+    background-color: orange;
+    transition-duration:  3s ;
+    position: relative;
+    perspective: none;
+
+}
+div:hover{
+    width: 500px;
+}
+
+p{
+    width: 100px;
+    height: 300px;
+    border: 1px solid;
+    background-color: #eeeeee;
+    position: absolute;
+    transform: rotateX(45deg);
+    transform-style: preserve-3d;
+}
+p:hover{
+    width: 500px;
+}

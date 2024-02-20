@@ -18,6 +18,7 @@ div{
     margin-left: 500px;
     margin-top: 150px;
 
+
 }
 body {
     width: 100%;
@@ -39,6 +40,7 @@ input[type=text]{
     border: none;
     border-bottom: 2px solid blue;
 
+
 }
 input[type=button]{
     background-color: royalblue;
@@ -46,4 +48,12 @@ input[type=button]{
     padding: 13px 2px;
     margin: 20px 0;
     border-radius: 10px;
+
 }
+input[type=text]:visited{
+    border-bottom: skyblue;
+}
+a{
+    text-decoration: none;
+}
+
